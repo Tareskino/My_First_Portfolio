@@ -1,0 +1,23 @@
+body {
+    display: flex
+}body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full height for the body */
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; /* Allow main to grow and shrink */
+}
+
+article {
+    flex: 2; /* Takes up 2 flex units */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+aside {
+    flex: 1; /* Takes up 1 flex unit */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
